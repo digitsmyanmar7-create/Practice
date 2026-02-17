@@ -7,7 +7,7 @@ async function dropCollection() {
   try {
     await client.connect();
     
-    const db = client.db("mydb_Feb_26");
+    const db = client.db("Feb26_db1");
     const collectionName = "users";
     
     // Drop the collection

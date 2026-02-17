@@ -65,6 +65,6 @@ const datalayer = {
 } ;
 
 
-let a = datalayer;
+let a = datalayer.ecommerce.items;
 
 console.log (a);

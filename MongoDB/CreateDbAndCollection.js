@@ -14,7 +14,7 @@ async function run() {
 
     // ***** THIS IS THE KEY *****
     // Insert a document into a collection to actually create the database
-    const collection = db.collection("Feb26_Colle1");
+    const collection = db.collection("Feb26_Colle2");
     const result = await collection.insertOne({ message: "Hello MongoDB!", createdAt: new Date() });
     console.log(`Test document inserted with id: ${result.insertedId}`);
     // ***************************
