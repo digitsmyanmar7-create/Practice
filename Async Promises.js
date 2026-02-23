@@ -17,4 +17,4 @@ console.log("Going to play!");
 cookiePromise
   .then((result) => console.log(result))  // Yay! Cookies!
   .catch((error) => console.log(error)); // Aw, no cookies
-console.log("Playing with toys..."); 
+console.log("Playing with toys...");
